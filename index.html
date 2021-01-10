@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Air Pollution</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="public/css/style.css">
+        <script src="https://kit.fontawesome.com/69b5654055.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="57x57" href="public/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="public/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="public/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="public/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="public/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="public/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="public/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="public/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="public/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="public/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png">
+        <link rel="manifest" href="public/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+      
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Air Pollution</h1>
+       <div class="container"> 
+         <div class="locate">  
+           <div class="search">
+                <button class="place" onclick="getLocation()">
+                    <i class="material-icons">place</i>
+                </button>
+            </div>
+            <div class="research">  
+                <input type="text" class="input"
+                     placeholder="Search..." id="city">
+                <button class="searchButton" id="btn_search">
+                      <i class="material-icons">search</i>
+                </button>
+            </div>
+         </div>
+            <div class="result"><br/>
+                    <section class="columns">
+                        <div class="column">
+                                <div class="city">City:<br/>
+                                    <span>-</span>
+                                </div>
+                                <div class="day">
+                                    <span>-</span>
+                                </div>
+                               
+                        </div>
+                        <div class="column">
+                            <div class="indexAir">
+                                <span>-</span>
+                            </div>
+                        </div>
+                    </section>
+            </div>
+            
+          <div class="legend"> 
+            <p>Legend:</p>
+            <div class="index green"><p>0 - 50<br/>Good</p></div>
+            <div class="index yellow"><p>51 - 100<br/>Moderate</p></div>
+            <div class="index orange"><p>101 - 150<br/>Unhealthy for sensitive groups</p></div>
+            <div class="index red"><p>151 - 200<br/>Unhealthy</p></div>
+            <div class="index dark_violet"><p>201 - 300<br/>Very Unhealthy</p></div>
+            <div class="index brown"><p>>300<br/>Hazardous</p></div>
+           </div> 
+        </div>
+        <script src="public/js/app.js"></script>
+    </body>
+</html>

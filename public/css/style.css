@@ -1,0 +1,310 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 237, 219)
+   
+   
+    
+}
+
+h1{
+    margin-top: 2%;
+    font-weight: bold;
+    text-align: center;
+    color: #00f;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container{
+    margin: 30px 25% auto;
+    background: url('/public/img/pollution.jpg');
+    background-size: cover;
+
+    width:90% ;
+    max-width: 750px;
+    border: 2px solid #007;
+    border-radius: 15px;
+     box-shadow:4px 6px 5px #1af ;
+}
+
+
+.locate{
+    margin:0 50px;
+    display: inline-table;
+}
+
+.research{
+    margin: 0 110px auto;
+}
+
+
+
+
+.research{
+   
+    position:absolute;
+    transform: translate(-50%, -50%);
+    background: #1bf;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.research:hover{
+    box-shadow: 0 0 24px #1bf, 0 0 24px rgba(0, 0, 0.8)
+}
+
+.research:hover > input{
+    width: 200px;
+    padding: 3px 6px;
+}
+
+.research:hover > .searchButton{
+    background: #fff;
+    color: #1bf;
+}
+
+.searchButton{
+    color: #00f;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    
+    background: #1bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    border:none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.searchButton i{
+    font-size: 50px;
+}
+
+.input{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    text-align: center;
+}
+
+
+
+.search > button {
+    background: #fff;
+    border-radius:25px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+
+
+ /* COLUMNS */
+ .columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 2px;
+    margin: 5px 2px;
+}
+.column {
+    flex: 1;
+   
+    font-weight: bolder;
+    margin: 2px;
+    padding: 15px;
+}
+.column:first-child {
+    margin-left: 15px;
+}
+.column:last-child {
+    margin-right: 20px;
+}
+
+/* CITY */
+
+.city{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+} 
+ 
+.city span{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+/* INDEX QUALITY */
+.indexAir{
+    
+    margin-left:32%;
+    width: 85px;
+    height: 85px;
+    border: 2px solid;
+    text-align: center;
+    padding-top: 28px;
+    border-radius: 15px;
+}
+
+.indexAir span{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+/* DAY */
+.day{
+    text-align: center;
+}
+.day span{
+    font-size:18px;
+    font-weight: bolder;
+  
+}
+
+/* LEGENDA */
+
+.legend{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding:2px;
+    margin:5px;
+}
+
+.legend p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.index{
+    display: inline-block;
+    text-align: center;
+    padding-top: 2px;
+    padding-right: 5px;
+    margin-left:10px;
+    margin-bottom: 8px;
+    width:120px;
+    height: 85px;
+   
+    border-radius: 10px;
+}
+
+.index p{
+    font-size:18px;
+    padding-right: 3px;
+}
+
+
+
+.green{
+    width:85px;
+    height: 65px;
+    padding-top: 20px;
+    background: rgb(58, 194, 58);
+}
+
+.yellow{
+    width:90px;
+    height: 66px;
+    padding-top: 20px;
+    background: rgb(242, 245, 54);
+}
+
+.orange{
+    background: rgb(243, 156, 57);
+}
+
+.red{
+    width:95px;
+    height: 75px;
+    padding-top: 20px;
+    
+    background: rgb(245, 22, 22);
+}
+
+.dark_violet{
+    width:95px;
+    height: 85px;
+    padding-top: 10px;
+    
+    background: rgb(136, 69, 245);
+}
+
+.brown{
+    width:100px;
+    height: 65px;
+    padding-top: 20px;
+    background: rgb(160, 59, 59);
+}
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width:340px){
+    .container{  
+        width:85%;
+        margin: 30px 10% auto;
+    }
+  
+}
+
+@media only screen and (max-width: 540px){
+    .container{
+      
+        width:80%;
+        margin: 30px 10% auto;
+    }
+
+}
+
+
+@media only screen and (max-width:620px){
+  
+    .container{
+        width:85%;
+        margin: 30px 10% auto;
+    }
+   
+      
+   
+}
+
+@media only screen and (max-width:799px){
+  
+    .container{
+        width:85%;
+        margin: 30px 10% auto;
+    }
+   
+      
+   
+}
+
+
+
+@media only screen and (min-width:899px){
+   
+    .container{
+        width:80%;
+        margin: 30px  auto;
+    }
+  
+}
