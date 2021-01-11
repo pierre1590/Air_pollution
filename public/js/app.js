@@ -1,3 +1,5 @@
+
+
 const cityElement = document.querySelector(".city span");
 const indexElement = document.querySelector(".indexAir span");
 const index = document.querySelector(".indexAir");
