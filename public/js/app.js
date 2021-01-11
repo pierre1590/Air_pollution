@@ -4,7 +4,7 @@ const index = document.querySelector(".indexAir");
 const date = document.querySelector(".day span")
 
 // API KEY
-const air_key = 'f018576ab29faf2b8f5b5d38a87dd05c65918720';
+const air_key = process.env.Air_key;
 
 const air = {};
 
