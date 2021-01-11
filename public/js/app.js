@@ -113,7 +113,7 @@ function showData(){
         changeBackground(pollution);
     })
     .catch(error  => {
-        alert("Non è stata trovata nessuna località.\n Si prega di inserire un'altra località.");
+        alert("Non è stata trovata nessuna località.\nSi prega di inserire un'altra città.");
     })
         
 }
@@ -128,25 +128,25 @@ function showData(){
 function changeBackground(pollution){
     if(pollution<=50){
         index.style.background = "rgb(58, 194, 58)";
-        index.style.border = "rgb(58, 194, 58)";
+        index.style.border = " rgb(58, 194, 58)";
     }else if(pollution>=51 && pollution <=100) {
         index.style.background = "rgb(242, 245, 54)";
-        index.style.border = "rgb(242, 245, 54)";
+        index.style.border = " rgb(242, 245, 54)";
     }else if(pollution>=101 && pollution <=150) {
         index.style.background = "rgb(243, 156, 57)";
-        index.style.border = "rgb(243, 156, 57)";
+        index.style.border = " rgb(243, 156, 57)";
     }else if(pollution>=151 && pollution <=200) {
         index.style.background = "rgb(245, 22, 22)";
-        index.style.border = "rgb(245, 22, 22)";
+        index.style.border = " rgb(245, 22, 22)";
     }else if(pollution>=201 && pollution <=300) {
         index.style.background = " rgb(136, 69, 245)";
-        index.style.border = "rgb(136, 69, 245)";
+        index.style.border = " rgb(136, 69, 245)";
     }else if(pollution>300) {
         index.style.background = "rgb(160, 59, 59)";
-        index.style.border = "rgb(160, 59, 59)";
+        index.style.border = " rgb(160, 59, 59)";
     }else {
         index.style.background = "lightgrey";
-        index.style.border = "lightgrey";
+        index.style.border = " lightgrey";
     }
 }
     
