@@ -23,7 +23,7 @@ module.exports = {
             template: 'index.html'
         }),
         new Dotenv({
-            path: '.env',
+            path: '/.env',
             safe: true,
             allowEmptyValues: true,
             systemvars: true,
