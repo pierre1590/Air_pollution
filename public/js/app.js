@@ -113,7 +113,7 @@ function showData(){
         changeBackground(pollution);
     })
     .catch(error  => {
-        alert("Non è stata trovata nessuna località. Si prega di riprovare.",'OK')
+        alert("Non è stata trovata nessuna località.\n Si prega di inserire un'altra località.");
     })
         
 }
