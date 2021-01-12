@@ -32,13 +32,6 @@ function showError(error){
     alert(error.message);
 }
 
-
-
-
-
-
-
-
 function getLocation(){
       
     if (navigator.geolocation) {
@@ -109,7 +102,7 @@ function showData(){
         
     })
     .then(function(){
-        let elemCity = air.city;
+       
         let pollution = air.index;
         showData();
         changeBackground(pollution);

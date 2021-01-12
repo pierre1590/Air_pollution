@@ -6,7 +6,7 @@ const Dotenv = require('dotenv-webpack');
 
 module.exports = {
     mode: 'development',
-    entry: '/public/js/app.js',
+    entry: ['./public/js/app.js', './public/css/style.css'],
     output: {
         path: path.join(__dirname, '/dist'),
         filename: 'bundle.js'
