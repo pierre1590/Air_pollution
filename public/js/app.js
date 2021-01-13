@@ -4,7 +4,8 @@ const indexElement = document.querySelector(".indexAir span");
 const index = document.querySelector(".indexAir");
 const date = document.querySelector(".day span")
 const btnLocation = document.getElementById('btn_location');
-
+const btnSearch = document.getElementById('btn_search');
+const City = document.getElementById('city');
 
 // API KEY
 const air_key = process.env.Air_key;
@@ -89,7 +90,7 @@ function showData(){
 
 //GET AIR POLLUTION FROM SEARCH  BAR
 
- btn_search.onclick = function() {
+ function searchCity() {
     let city = document.getElementById('city').value;
 
     let api = `https://api.waqi.info/search/?token=${air_key}&keyword=${city}`;
@@ -108,8 +109,10 @@ function showData(){
     .then(function(){
        
         let pollution = air.index;
+
         showData();
         changeBackground(pollution);
+        
     })
     .catch(error  => {
         alert("Non è stata trovata nessuna località.\nSi prega di inserire un'altra città.");
@@ -117,7 +120,13 @@ function showData(){
         
 }
 
+btnSearch.addEventListener('click', searchCity);
 
+City.addEventListener('keydown', function(e) {
+    if(e.keyCode === 13){
+        searchCity();
+    }
+});
 
 
 
