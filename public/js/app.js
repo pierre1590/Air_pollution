@@ -1,9 +1,10 @@
 
-
 const cityElement = document.querySelector(".city span");
 const indexElement = document.querySelector(".indexAir span");
 const index = document.querySelector(".indexAir");
 const date = document.querySelector(".day span")
+const btnLocation = document.getElementById('btn_location');
+
 
 // API KEY
 const air_key = process.env.Air_key;
@@ -32,6 +33,7 @@ function showError(error){
     alert(error.message);
 }
 
+// FUNCTION GEOLOCATION
 function getLocation(){
       
     if (navigator.geolocation) {
@@ -47,6 +49,8 @@ function getLocation(){
         alert("Geolocation is not supported by this browser.");
       }
   }
+
+  btnLocation.addEventListener('click', getLocation);
     
     
 // GET AIR POLLUTION FROM COORDINATES
