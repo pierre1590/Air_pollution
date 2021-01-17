@@ -257,6 +257,22 @@ h1{
 }
 
 
+
+
+ footer{
+    margin: 35% 46% auto;
+    font-size:18px;
+    padding-top: 4px;
+    font-family: 'Dancing Script', cursive;
+    background-color: lightsalmon;
+    color:blue;
+    width:250px;
+    height: 32px;   
+    text-align: center; 
+    border-radius: 18px;
+    box-shadow: 4px 4px 5px  lightblue;
+}
+
 /* MEDIA QUERY */
 @media only screen and (max-width:340px){
     .container{  
@@ -264,6 +280,9 @@ h1{
         margin: 30px 10% auto;
     }
   
+    footer{
+        margin:8% 15% auto;
+    }
 }
 
 @media only screen and (max-width: 540px){
@@ -271,6 +290,10 @@ h1{
       
         width:80%;
         margin: 30px 10% auto;
+    }
+
+    footer{
+        margin:10% 30% auto;
     }
 
 }
@@ -283,7 +306,9 @@ h1{
         margin: 30px 10% auto;
     }
    
-      
+    footer{
+        margin:10% 25% auto;
+    }
    
 }
 
@@ -291,9 +316,12 @@ h1{
   
     .container{
         width:85%;
-        margin: 30px 10% auto;
+        margin: 30px 25% auto;
     }
    
+    footer{
+        margin:10% 25% auto;
+    }
       
    
 }
@@ -307,4 +335,8 @@ h1{
         margin: 30px  auto;
     }
   
+
+    footer{
+        margin:10% 45% auto;
+    }
 }
