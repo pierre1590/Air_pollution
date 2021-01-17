@@ -5,6 +5,6 @@
 
 I created an air pollution app that allows you to show the pollution index by geolocation or a simple search for a city.
 
-App in action: https://www.piero-sabino.it/air_pollution
+App in action: https://www.piero-sabino.it/air_pollution/
 
 Author: Piero Sabino
