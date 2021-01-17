@@ -115,7 +115,7 @@ function showData(){
         
     })
     .catch(error  => {
-        alert("Non è stata trovata nessuna località.\nSi prega di inserire un'altra città.");
+        alert("Non \u00E8 stata trovata nessuna localit\u00E0.\nSi prega di inserire un'altra citt\u00E0.");
     })
         
 }
