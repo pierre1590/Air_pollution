@@ -230,6 +230,8 @@ h1{
 }
 
 .orange{
+    width:95px;
+    height: 115px;
     background: rgb(243, 156, 57);
 }
 
