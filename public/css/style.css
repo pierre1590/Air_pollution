@@ -277,7 +277,7 @@ h1{
 @media only screen and (max-width:340px){
     .container{  
         width:85%;
-        margin: 30px 5% auto;
+        margin: 30px 15% auto;
     }
   
     footer{
@@ -332,11 +332,11 @@ h1{
    
     .container{
         width:80%;
-        margin: 30px 15px auto;
+        margin: 30px 35% auto;
     }
   
 
     footer{
-        margin:10% 30% auto;
+        margin:10% 35% auto;
     }
 }
