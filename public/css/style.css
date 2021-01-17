@@ -260,7 +260,7 @@ h1{
 
 
  footer{
-    margin: 35% 46% auto;
+    margin: 35% 45% auto;
     font-size:18px;
     padding-top: 4px;
     font-family: 'Dancing Script', cursive;
@@ -277,11 +277,11 @@ h1{
 @media only screen and (max-width:340px){
     .container{  
         width:85%;
-        margin: 30px 10% auto;
+        margin: 30px 5% auto;
     }
   
     footer{
-        margin:8% 15% auto;
+        margin:8% 1% auto;
     }
 }
 
@@ -293,7 +293,7 @@ h1{
     }
 
     footer{
-        margin:10% 30% auto;
+        margin:10% 15% auto;
     }
 
 }
@@ -307,7 +307,7 @@ h1{
     }
    
     footer{
-        margin:10% 25% auto;
+        margin:10% 15% auto;
     }
    
 }
@@ -316,7 +316,7 @@ h1{
   
     .container{
         width:85%;
-        margin: 30px 25% auto;
+        margin: 30px 10% auto;
     }
    
     footer{
@@ -332,11 +332,11 @@ h1{
    
     .container{
         width:80%;
-        margin: 30px  auto;
+        margin: 30px 15px auto;
     }
   
 
     footer{
-        margin:10% 45% auto;
+        margin:10% 30% auto;
     }
 }
