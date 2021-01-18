@@ -20,7 +20,7 @@ h1{
 }
 
 .container{
-    margin: 30px 25% auto;
+   
     background: url('/public/img/pollution.jpg');
     background-size: cover;
 
@@ -279,11 +279,11 @@ h1{
 @media only screen and (max-width:340px){
     .container{  
         width:85%;
-        margin: 30px 15% auto;
+        margin: 30px 10% auto;
     }
   
     footer{
-        margin:8% 1% auto;
+        margin:8% 8% auto;
     }
 }
 
@@ -295,7 +295,7 @@ h1{
     }
 
     footer{
-        margin:10% 15% auto;
+        margin:10% 8% auto;
     }
 
 }
@@ -322,7 +322,7 @@ h1{
     }
    
     footer{
-        margin:10% 25% auto;
+        margin:10% 15% auto;
     }
       
    
@@ -330,15 +330,28 @@ h1{
 
 
 
-@media only screen and (min-width:899px){
+@media only screen and (max-width:899px){
    
     .container{
         width:80%;
-        margin: 30px 35% auto;
+        margin: 30px 15% auto;
     }
   
 
     footer{
-        margin:10% 35% auto;
+        margin:10% 25% auto;
+    }
+}
+
+@media only screen and (min-width:1020px){
+   
+    .container{
+        width:80%;
+        margin: 30px 34% auto;
+    }
+  
+
+    footer{
+        margin:10% 45% auto;
     }
 }
